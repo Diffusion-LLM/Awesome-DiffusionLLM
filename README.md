@@ -1,2 +1,5 @@
 # Awesome-DiffusionLLM
-A Curated List of Resources for Diffusion LLMs
+
+
+
+- A Survey on Diffusion Language Models [[Paper]](https://arxiv.org/abs/2508.10875), [[Project]](https://github.com/VILA-Lab/Awesome-DLMs)
