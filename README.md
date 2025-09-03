@@ -12,5 +12,7 @@
 
 # Not completed
 
+- Diffusive Gibbs Sampling
+
 ### TODO
 - to categorize papers
