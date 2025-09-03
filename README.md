@@ -6,3 +6,6 @@
 
 - Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models, [[Paper]](https://arxiv.org/abs/2508.09138)
 
+
+### TODO
+- to categorize papers
