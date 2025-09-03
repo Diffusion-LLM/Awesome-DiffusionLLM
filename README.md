@@ -14,6 +14,8 @@
 
 - Diffusive Gibbs Sampling
 - Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo
+- Simple and Effective Masked Diffusion Language Models
+
 
 
 ### TODO
