@@ -13,6 +13,8 @@
 # Not completed
 
 - Diffusive Gibbs Sampling
+- Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo
+
 
 ### TODO
 - to categorize papers
