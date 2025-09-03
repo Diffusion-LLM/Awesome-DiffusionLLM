@@ -6,6 +6,11 @@
 
 - Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models, [[Paper]](https://arxiv.org/abs/2508.09138)
 
+- DPad: Efficient Diffusion Language Models with Suffix Dropout, [[Paper]](https://arxiv.org/abs/2508.14148)
+
+
+
+# Not completed
 
 ### TODO
 - to categorize papers
