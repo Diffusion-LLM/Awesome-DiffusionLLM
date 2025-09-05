@@ -15,11 +15,6 @@ A curated list of awesome research papers and resources on Diffusion Language Mo
 [[Paper]](https://arxiv.org/abs/2502.09992) [[Project]](https://ml-gsai.github.io/LLaDA-demo/)  
 Introduces LLaDA, a diffusion model trained from scratch that challenges the dominance of autoregressive models and demonstrates competitive performance.
 
-**Continuous Diffusion Model for Language Modeling** ![General](https://img.shields.io/badge/Task-General-blue) ![Training](https://img.shields.io/badge/Methods-Training-red) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)  
-*Jaehyeong Jo, Sung Ju Hwang*  
-[[Paper]](http://arxiv.org/abs/2502.11564)  
-Proposes a continuous diffusion model that incorporates the geometry of categorical distributions and establishes connections between discrete diffusion and continuous flow.
-
 **d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning** ![General](https://img.shields.io/badge/Task-General-blue) ![Training](https://img.shields.io/badge/Methods-Training-red) ![RL](https://img.shields.io/badge/Stage-RL-pink)  
 *Siyan Zhao et al.*  
 [[Paper]](http://arxiv.org/abs/2504.12216) [[Project]](https://dllm-reasoning.github.io/)  
@@ -40,12 +35,12 @@ Investigates dLLMs for code generation, proposing coupled-GRPO and achieving +4.
 [[Paper]](http://arxiv.org/abs/2507.15857) [[Project]](https://diffusion-scaling.github.io)  
 Systematically studies masked diffusion models in data-constrained settings, showing they significantly outperform AR models when data is scarce.
 
-**Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference** ![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)  
+**Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference** ![Code](https://img.shields.io/badge/Task-Code-green)
 *Yuxuan Song et al.*  
 [[Paper]](http://arxiv.org/abs/2508.02193) [[Demo]](https://studio.seed.ai/exp/seed_diffusion/)  
 Achieves remarkable inference speed of 2,146 token/s while maintaining competitive performance, setting new state-of-the-art on speed-quality frontier.
 
-**Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing** ![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)  
+**Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing** ![General](https://img.shields.io/badge/Task-General-blue) 
 *Xu Wang et al.*  
 [[Paper]](http://arxiv.org/abs/2508.09192) [[Code]](https://github.com/zhijie-group/Discrete-Diffusion-Forcing)  
 Proposes D2F strategy enabling block-wise autoregressive generation and achieving >2.5× speedup over LLaMA3 and Qwen2.5.
@@ -55,7 +50,7 @@ Proposes D2F strategy enabling block-wise autoregressive generation and achievin
 [[Paper]](http://arxiv.org/abs/2508.13070)  
 Proposes ReCOR framework for extracting adaptive token generation orders to improve reasoning and planning capabilities.
 
-**DPad: Efficient Diffusion Language Models with Suffix Dropout** ![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)  
+**DPad: Efficient Diffusion Language Models with Suffix Dropout** ![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange)
 *Xinhua Chen et al.*  
 [[Paper]](http://arxiv.org/abs/2508.14148) [[Code]](https://github.com/Crys-Chen/DPad)  
 Training-free method that delivers up to 61.4× speedup over vanilla dLLMs while maintaining comparable accuracy.
