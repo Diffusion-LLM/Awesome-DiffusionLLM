@@ -1,6 +1,6 @@
 # Awesome-DiffusionLLM
 
-
+- Dream-Coder 7B: An Open Diffusion Language Model for Code [[Paper]](https://arxiv.org/abs/2509.01142)
 
 - A Survey on Diffusion Language Models [[Paper]](https://arxiv.org/abs/2508.10875), [[Project]](https://github.com/VILA-Lab/Awesome-DLMs)
 
