@@ -88,78 +88,75 @@ The most powerful open diffusion large language model to date, demonstrating sup
 [[Paper]](http://arxiv.org/abs/2410.17891) [[Code]](https://github.com/HKUNLP/DiffuLLaMA)  
 Proposes adapting AR models to build diffusion models (DiffuGPT, DiffuLLaMA), showing systematic evaluation and competitive performance.
 
-**Latent Diffusion for Language Generation**
-![General](https://img.shields.io/badge/Task-General-blue) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)
-*Justin Lovelace et al.*
-[[Code]](https://github.com/justinlovelace/latent-diffusion-for-language)
+**Latent Diffusion for Language Generation** \
+![General](https://img.shields.io/badge/Task-General-blue) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple) \
+*Justin Lovelace et al.* \
+[[Code]](https://github.com/justinlovelace/latent-diffusion-for-language) \
 Demonstrates that continuous diffusion models can be learned in the latent space of language autoencoders for effective text generation.
 
-**CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credits**
-![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange)
-*Authors et al.*
-[[Paper]](https://arxiv.org/abs/2510.06133)
+**CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credits** \
+![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange) \
+[[Paper]](https://arxiv.org/abs/2510.06133) \
 Introduces Trace Credit concept to quantify token convergence potential and accelerate confidence convergence of underconfident tokens, achieving 5.48× speedup on LLaDA-8B-Instruct with improved performance.
 
-**LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning**
-![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink)
-*Haoqiang Kang et al.*
-[[Paper]](https://arxiv.org/abs/2510.04573)
+**LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning** \
+![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink) \
+*Haoqiang Kang et al.* \
+[[Paper]](https://arxiv.org/abs/2510.04573) \
 Unifies continuous latent representation with iterative refinement capabilities via VAE-based latent reasoning space and latent diffusion model, enabling longer horizon reasoning with adaptive test-time compute.
 
-**Finish First, Perfect Later: Test-Time Token-Level Cross-Validation for Diffusion Large Language Models**
-![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange)
-*Runchu Tian et al.*
-[[Paper]](https://arxiv.org/abs/2510.05090)
+**Finish First, Perfect Later: Test-Time Token-Level Cross-Validation for Diffusion Large Language Models** \
+![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange) \
+*Runchu Tian et al.* \
+[[Paper]](https://arxiv.org/abs/2510.05090) \
 Proposes Tolerator, a training-free decoding strategy leveraging cross-validation among predicted tokens to allow revision of accepted tokens, addressing the limitation that early mistakes persist across iterations.
 
 **Principled and Tractable RL for Reasoning with Diffusion Language Models**
-![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink)
-*Authors et al.*
-[[Paper]](https://arxiv.org/abs/2510.04019)
+![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink) \
+[[Paper]](https://arxiv.org/abs/2510.04019) \
 Presents AGRPO, the first principled and tractable online RL algorithm for dLLMs using Monte Carlo sampling for unbiased policy gradients, achieving +7.6% on GSM8K and 1.3× gains over comparable RL methods.
 
-**Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner**
-![General](https://img.shields.io/badge/Task-General-blue) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)
-*Cai Zhou et al.*
-[[Paper]](https://arxiv.org/abs/2510.03206)
+**Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner** \
+![General](https://img.shields.io/badge/Task-General-blue) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple) \
+*Cai Zhou et al.* \
+[[Paper]](https://arxiv.org/abs/2510.03206) \
 Proposes CCDD with joint multimodal diffusion process on continuous and discrete spaces, leveraging single model to simultaneously denoise, combining expressivity of continuous diffusion with trainability of discrete tokens.
 
-**Why mask diffusion does not work**
-![General](https://img.shields.io/badge/Task-General-blue)
-*Authors et al.*
-[[Paper]](https://arxiv.org/abs/2510.03289)
+**Why mask diffusion does not work**\
+![General](https://img.shields.io/badge/Task-General-blue)\
+*Authors et al.*\
+[[Paper]](https://arxiv.org/abs/2510.03289)\
 Demonstrates theoretical and empirical analysis showing mask diffusion predictions collapse to marginal distributions, lacking joint coherence and being essentially autoregressive, misaligning training with inference.
 
-**Training Optimal Large Diffusion Language Models**
-![General](https://img.shields.io/badge/Task-General-blue) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)
-*Authors et al.*
-[[Paper]](https://arxiv.org/abs/2510.03280)
+**Training Optimal Large Diffusion Language Models**\
+![General](https://img.shields.io/badge/Task-General-blue) ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple)\
+*Jinjie Ni al.*\
+[[Paper]](https://arxiv.org/abs/2510.03280)\
 Introduces Quokka, the first systematic scaling law for diffusion language models encompassing compute- and data-constrained regimes, showing masked diffusion consistently outperforms uniform diffusion and AR models under data constraints.
 
-**DiffuSpec: Unlocking Diffusion Language Models for Speculative Decoding**
-![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange)
-*Guanghao Li et al.*
-[[Paper]](https://arxiv.org/abs/2510.02358)
+**DiffuSpec: Unlocking Diffusion Language Models for Speculative Decoding**\
+![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange)\
+*Guanghao Li et al.*\
+[[Paper]](https://arxiv.org/abs/2510.02358)\
 Training-free framework using pretrained DLM for multi-token drafts in speculative decoding with causal-consistency path search and adaptive draft-length controller, yielding up to 3× wall-clock speedup.
 
-**Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**
-![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink)
-*Authors et al.*
-[[Paper]](https://arxiv.org/abs/2509.06949)
+**Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**\
+![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink)\
+[[Paper]](https://arxiv.org/abs/2509.06949)\
 Proposes TraceRL, a trajectory-aware RL framework with diffusion-based value model, deriving TraDo models where TraDo-4B-Instruct outperforms 7B-scale AR models on complex math reasoning tasks with 18.1% gain on MATH500.
 
-**DIFFA: Large Language Diffusion Models Can Listen and Understand**
-![General](https://img.shields.io/badge/Task-General-blue) ![SFT](https://img.shields.io/badge/Stage-SFT-yellow)
-*Jiaming Zhou et al.*
-[[Paper]](https://arxiv.org/abs/2507.18452)
+**DIFFA: Large Language Diffusion Models Can Listen and Understand**\
+![General](https://img.shields.io/badge/Task-General-blue) ![SFT](https://img.shields.io/badge/Stage-SFT-yellow)\
+*Jiaming Zhou et al.*\
+[[Paper]](https://arxiv.org/abs/2507.18452)\
 First diffusion-based large audio-language model integrating frozen diffusion LM with dual-adapter architecture for speech understanding, achieving competitive performance on MMSU, MMAU, and VoiceBench benchmarks.
 
 
 
-**SDAR: Synergy of Diffusion and AutoRegression**
-![General](https://img.shields.io/badge/Task-General-blue) ![SFT](https://img.shields.io/badge/Stage-SFT-yellow)
-*Shuang Cheng et al.*
-[[Paper]](https://jetastra.github.io/SDAR/)
+**SDAR: Synergy of Diffusion and AutoRegression**\
+![General](https://img.shields.io/badge/Task-General-blue) ![SFT](https://img.shields.io/badge/Stage-SFT-yellow)\
+*Shuang Cheng et al.*\
+[[Paper]](https://jetastra.github.io/SDAR/)\
 Propose SDAR (Synergy of Diffusion and AutoRegression), a large-scale diffusion language model that unites the complementary strengths of autoregressive and discrete diffusion modeling.
 
 
