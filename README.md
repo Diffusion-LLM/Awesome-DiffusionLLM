@@ -175,3 +175,4 @@ Contributions are welcome! Please feel free to submit a Pull Request to add new 
 ## License
 
 This project is licensed under the same license as the original repository.
+- **Fast-dLLM++: Fréchet Profile Decoding for Faster Diffusion LLM Inference** (2026) [[arXiv](https://arxiv.org/abs/2606.02955)] [[Code](https://github.com/Ringo-Star/FastdLLM_plusplus)] [[Project Page](https://ringo-star.github.io/projectpage_frechet/)]
