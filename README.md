@@ -8,6 +8,18 @@ A curated list of awesome research papers and resources on Diffusion Language Mo
 **Methods:** ![Inference](https://img.shields.io/badge/Methods-Inference-orange)  
 **Training Stage:** ![Pre%20training](https://img.shields.io/badge/Stage-Pre--training-purple) ![SFT](https://img.shields.io/badge/Stage-SFT-yellow) ![RL](https://img.shields.io/badge/Stage-RL-pink)
 
+## 2026 Papers
+
+**Learning from the Self-future: On-policy Self-distillation for dLLMs**
+
+![General](https://img.shields.io/badge/Task-General-blue) ![SFT](https://img.shields.io/badge/Stage-SFT-yellow)
+
+*Yifu Luo et al.*
+
+[[Paper]](https://arxiv.org/abs/2606.18195) [[Code]](https://github.com/xingzhejun/d-opsd-code)
+
+Introduces d-OPSD, which uses self-generated answer suffixes and denoising-aligned step-level supervision for diffusion LLM post-training.
+
 ## 2025 Papers
 
 ⭐ **Large Language Diffusion Models (LLaDA)**  
