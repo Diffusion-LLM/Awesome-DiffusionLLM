@@ -64,6 +64,12 @@ Achieves remarkable inference speed of 2,146 token/s while maintaining competiti
 [[Paper]](http://arxiv.org/abs/2508.09192) [[Code]](https://github.com/zhijie-group/Discrete-Diffusion-Forcing)  
 Proposes D2F strategy enabling block-wise autoregressive generation and achieving >2.5× speedup over LLaMA3 and Qwen2.5.
 
+**Empirical Analysis of Decoding Biases in Masked Diffusion Models**  
+![General](https://img.shields.io/badge/Task-General-blue) ![Inference](https://img.shields.io/badge/Methods-Inference-orange)  
+*Pengcheng Huang et al.*  
+[[Paper]](https://arxiv.org/abs/2508.13021) [[Code]](https://github.com/NEUIR/Uncode)  
+ACL 2026. Identifies rigid boundary bias and trivial token bias in uncertainty-based decoding of masked diffusion models and proposes UNCODE, a training-free decoding calibration that improves reasoning and planning performance by over 7% across three MDMs.
+
 **Reinforced Context Order Recovery for Adaptive Reasoning and Planning**  
 ![General](https://img.shields.io/badge/Task-General-blue) ![RL](https://img.shields.io/badge/Stage-RL-pink)  
 *Long Ma et al.*  
